@@ -1,0 +1,2 @@
+# waveshare_4.3inchi_epper_with_baidutongji
+在原作者的基础上引入了百度统计功能，利用百度统计API将网站的访问情况显示在墨水屏上

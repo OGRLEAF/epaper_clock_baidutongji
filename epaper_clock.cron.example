@@ -1,3 +1,4 @@
 */30 * * * *	root   /opt/epaper_clock/weather_fetcher.py
 */1 * * * *	root   /opt/epaper_clock/home_air_sensor.py
 */1 * * * *	root   /opt/epaper_clock/weather_time_render.py
+*/1 * * * *	root   php /opt/epaper_clock/tongjiapi/demo.php

@@ -197,7 +197,7 @@ if wdata.get('tomorrow_aq'):
 
 screen.wrap_text(weather2_x + 8, weather2_y + 48 + 20, box_width, msg)
 
-def weather_fail(msg):
+def tongji_fail(msg):
     screen.text(10,170, msg)
     screen.update()
     screen.disconnect()
@@ -213,7 +213,7 @@ try:
     with open(tongji_data_file, 'r') as in_file:
         tdata = json.load(in_file)
 except IOError:
-    weather_fail(u'ERROR:无法加载统计数据!')
+    tongji_fail(u'ERROR:无法加载统计数据!')
 
 #解析JSON文件，并转换为unicode
 #今日uv/pv

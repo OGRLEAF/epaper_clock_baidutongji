@@ -48,7 +48,9 @@ if (count($siteList) > 0) {
         'max_results' => 0,                     //返回所有条数
         'gran' => 'day',                        //按天粒度
     ));
-    echo $ret['raw'] . PHP_EOL;
+//  echo $ret['raw'] . PHP_EOL;
+    file_put_contents('statistics.json', $ret['raw']);
+
 }
 
 // doLogout

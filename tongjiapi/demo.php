@@ -4,6 +4,9 @@
  * set your information in Config.inc. php such as USERNAME, PASSWORD ... before use
  * especially, you can modify this Demo on your need!
  */
+$cur_dir = dirname(__FILE__); 
+chdir($cur_dir);
+
 require_once('Config.inc.php');
 require_once('LoginService.inc.php');
 require_once('ReportService.inc.php');
